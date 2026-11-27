@@ -18,3 +18,9 @@ A Python-based Retrieval-Augmented Generation (RAG) assistant that reads a PDF d
    ```bash
    git clone [https://github.com/rishavgupta536-beep/RAG_Project.git](https://github.com/rishavgupta536-beep/RAG_Project.git)
    cd RAG_Project
+python -m venv .venv
+.venv\Scripts\activate
+
+pip install -r requirement.txt
+
+API_KEY=your_api_key_here
